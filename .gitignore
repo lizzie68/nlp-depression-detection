@@ -223,3 +223,9 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 models/
+.DS_Store
+
+outputs/*/checkpoints/
+outputs/*/logs/
+*.safetensors
+pytorch_model.bin
