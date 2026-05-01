@@ -1,0 +1,16 @@
+Error Analysis Summary
+======================
+Total merged test examples: 2000
+
+majority: 1000/2000 correct (0.5000)
+naive_bayes: 1765/2000 correct (0.8825)
+logistic_regression: 1716/2000 correct (0.8580)
+bertweet: 1746/2000 correct (0.8730)
+
+Category counts:
+all_models_wrong: 56
+naive_bayes_wrong_bertweet_correct: 163
+logistic_regression_wrong_bertweet_correct: 210
+bertweet_wrong_naive_bayes_correct: 182
+false_positives_bertweet: 176
+false_negatives_bertweet: 78
